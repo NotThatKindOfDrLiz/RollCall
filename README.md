@@ -1,6 +1,6 @@
-# RollCall
+# RollCall - A decentralized event check-in system powered by Nostr
 
-A decentralized event check-in system powered by Nostr. RollCall enables event organizers to create attendance-tracking events and participants to securely check in using their Nostr identity.
+RollCall enables event organizers to create attendance-tracking events and participants to securely check in using their [Nostr](https://github.com/nostr-protocol/nostr) identity.
 
 ## Features
 
@@ -15,9 +15,17 @@ A decentralized event check-in system powered by Nostr. RollCall enables event o
 - **Mobile-First Design**: Responsive design optimized for mobile devices.
 - **Dark Mode Support**: Complete light/dark theme system.
 
+## Flockstr Integration
+
+RollCall is designed for interoperability with other Nostr-based clients, including the [Flockstr](https://flockstr.com) decentralized events and meet ups app.
+
+- **Event Discovery**: Users can browse public events from the Flockstr calendar directly within RollCall, providing a seamless way to find new events.
+- **Import to RollCall**: Event organizers who list their events on Flockstr can import them into RollCall with a single click. This allows them to add RollCall's powerful attendance tracking and QR code check-in features to their existing events.
+- **NIP-52 Compatibility**: The integration is powered by NIP-52, the Nostr standard for calendar events, ensuring that events are compatible and can be easily shared between platforms.
+
 ## +chorus Integration
 
-RollCall integrates with +chorus communities to enhance event discovery and social sharing.
+RollCall integrates with [+chorus](https://chorus.community) to enhance event discovery and social sharing.
 
 ### Event Proposals
 When creating events, users can optionally propose their events to +chorus communities:
@@ -182,4 +190,4 @@ This project is open source and available under the MIT License.
 
 ## Acknowledgments
 
-Built with [MKStack](https://soapbox.pub/mkstack) - A template for building Nostr client applications.
+Built with [MKStack](https://soapbox.pub/mkstack) - A tool for AI-powered development of Nostr client applications.
