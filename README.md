@@ -190,4 +190,4 @@ This project is open source and available under the MIT License.
 
 ## Acknowledgments
 
-Built with [MKStack](https://soapbox.pub/mkstack) - A tool for AI-powered development of Nostr client applications.
+Built with [MKStack](https://soapbox.pub/mkstack) - A tool for AI-powered development of Nostr clients.
